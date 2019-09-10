@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+#demo,.image-resizer{
+ 	height:500px;
+ 	width:1300px;
+ 	object-fit:cover;
+ 	object-position: center center;
+ }
+ #img{
+ /* background-image: url(../../../images/demo/backgrounds/school4.jpg); */
+ 	background-repeat: no-repeat;
+ 	height:700px;
+ }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .orange {
+	height:35px;
+	hover:background-color: #3e8e41;
+	background-color:lightgray;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .update {
+	height:35px;
+	hover:background-color: #808080;
+	background-color:lightgray;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .orange:hover {
+  background-color: #ffff00;
+  color: blue;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .update:hover {
+  background-color: #8080c0;
+  color: blue;
+}
